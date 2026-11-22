@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-TrustComponent VAT Checker is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.trustcomponent.com/en/products/vat-checker
+TrustComponent VAT Checker validates VAT IDs with audit‑proof evidence, EU‑hosted. It offers features checking, outcomes, registries coverage, qualified checks, reliability with retries, batch & API access, scheduled re‑validation, manual review, results & evidence exports, reports, webhooks, and platform governance support for agencies.
+
+**Areas:** Company · VAT · Validation · EU · API
+
+## TrustComponent VAT Checker on APIs.io
+
+Everything profiled for TrustComponent VAT Checker is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/trustcomponent-com/](https://apis.io/providers/trustcomponent-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [VAT Checker API](https://apis.io/apis/trustcomponent-com/vat-checker-api/) — VAT Checker API provides endpoints for VAT ID validation, results, batch checks, and webhooks.
+- [TrustComponent VAT Checker API](https://apis.io/apis/trustcomponent-com/trustcomponent-com-api/) — TrustComponent VAT Checker API as documented publicly: 16 operations. Contract generated from the documentation by API Evangelist (2026-11-22); not the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Trustcomponent Com Webhooks](https://apis.io/asyncapis/trustcomponent-com/trustcomponent-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetAnalyticsV1WebsitesCc2E2D5ED1Ef4A7FA7BdDec5B37Df47AStatsB](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-get-analytics-v1-websites-cc2-e2-d5-ed1-ef4-a7-fa7-bd-dec5-b37-df47-astats-b/)
+- [GetTaxvalidationV1ValidationResultsValidationresultidRespons](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-get-taxvalidation-v1-validation-results-validationresultid-respons/)
+- [GetWebsitesIdStatsBreakdownsResponse](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-get-websites-id-stats-breakdowns-response/)
+- [GetWebsitesIdStatsOverviewResponse](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-get-websites-id-stats-overview-response/)
+- [GetWebsitesIdStatsTimeseriesResponse](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-get-websites-id-stats-timeseries-response/)
+- [PostTaxvalidationV1ValidationsResponse](https://apis.io/schemas/trustcomponent-com/trustcomponent-com-post-taxvalidation-v1-validations-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Trustcomponent Com Context](https://apis.io/jsonld/trustcomponent-com/trustcomponent-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TrustComponent VAT Checker API Rules](https://apis.io/rules/trustcomponent-com/trustcomponent-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TrustComponent VAT Checker Domain Security](https://apis.io/security/trustcomponent-com/trustcomponent-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.trustcomponent.com/en/products/vat-checker)
+- [Documentation](https://docs.trustcomponent.com/api/tax-validation/)
+- [Pricing](https://www.trustcomponent.com/en/products/vat-checker/pricing)
+- [Sign up](https://id.trustcomponent.com/signup?product=vatchecker&cta=get-started)
+- [Support](https://www.trustcomponent.com/en/contact?product=vat-checker)
+- [Terms of service](https://www.trustcomponent.com/en/legal/terms-and-conditions)
+- [Privacy policy](https://www.trustcomponent.com/en/legal/privacy-policy)
+- [GitHub](https://github.com/trustcomponent)
+- [Status](https://status.trustcomponent.com/)
+
+## API Evangelist rating
+
+**Kin Score 45.4** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 62.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.2 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 36.2 |
+
+**Agent readiness 32.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/trustcomponent-com/](https://apis.io/providers/trustcomponent-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TrustComponent VAT Checker: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/trustcomponent-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
